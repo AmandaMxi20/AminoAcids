@@ -8,7 +8,7 @@
 #function to read from file
 def mutate():
     #reads from the main file and from the normal one
-    File1 = open("DNA_sequence.txt","r")
+    File1 = open("DNA.txt","r")
     file2 = open("normalDNA.txt","w")
     #adds the main file to a string
     end = File1.read().replace("\n", "")
